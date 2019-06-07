@@ -1,0 +1,64 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:400, 500, 700";
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--main-color: #6d5ac9;
+	--secondary-color: #a95cc6;
+	--white-color: #e4e4e4;
+	--silver-color: #3a3a3a;
+	--dark-color: #080013;
+	--yellow-color: #ecd018;
+
+	--main-font: 'Montserrat', 'Poppins', 'Roboto', 'Helvetica', sans serif;
+}
+html,
+body {
+	font-family: var(--main-font);
+	background: var(--white-color);
+}
+
+body {
+	min-height: 100vh;
+	/* min-width: 100vw; */
+
+	font-weight: 300;
+	line-height: 1.5;
+}
+.btn {
+	padding: 0.5rem 1rem;
+	background: var(--secondary-color);
+	font-weight: 700;
+	border-radius: 5px;
+	border: var(--secondary-color);
+	color: var(--white-color);
+}
+.btn-main {
+	color: var(--white-color);
+	background: var(--main-color);
+}
+.btn-small {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.1rem;
+	width: 30px;
+	max-height: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 1.5;
+}
+input {
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--main-color);
+	display: block;
+	width: 100%;
+	margin: 0.5rem 0;
+}
+.yellow {
+	background: var(--yellow-color);
+	color: var(--dark-color);
+	padding: 0 0.2rem;
+}
